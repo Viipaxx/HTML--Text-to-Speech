@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>Text to Speech</h1>
+
+        <label for="word">Digite o texto para ouvir a pronúncia:</label>
+        <input type="text" id="word" placeholder="Digite aqui..." aria-label="Texto a ser pronunciado">
+
+        <button id="speakButton">Ouvir</button>
+
+        <label for="velocity">Ajuste a velocidade:</label>
+        <input type="range" name="velocity" id="velocity" min="1" max="10" value="5">
+        <p>Velocidade: <span id="velocidade">5</span></p>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
